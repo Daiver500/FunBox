@@ -1,9 +1,9 @@
 import '../js/index';
 import {modal} from './modal';
-import {mainMenu} from './menu';
+import {mask} from './imask';
 
 window.addEventListener('DOMContentLoaded', () => {
   modal();
-  mainMenu();
+  mask();
 });
 
