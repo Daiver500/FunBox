@@ -3,10 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Белый ветер</title>
-  <meta name="description" content="ремонт и продажа электроники">
+  <title>FunBox</title>
+  <meta name="description" content="корм для живности">
   <meta name="keywords"
-    content="apple, samsung, ремонт телефонов, ремонт планшетов, продажа телефонов">
+    content="котэ, собакены, мыши">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preload" href="style.min.css" as="style">
   <link rel="preload" href="fonts/montserrat-medium.woff" as="font" />
@@ -19,8 +19,13 @@
   <main class="main">
     <section class="catalog">
       <div class="container">
-      <section class="catalog">
-        HELLO WORLD!!!
+      <section class="catalog__inner">
+        <h1 class="title catalog__header">Ты&nbsp;сегодня покормил кота?</h1>
+        <ul class="catalog__list">
+          <li class="catalog-card">1</li>
+          <li class="catalog-card">2</li>
+          <li class="catalog-card">3</li>
+        </ul>
       </section>
     </section>
   </div>
@@ -36,17 +41,14 @@
                 fill="black" />
             </svg>
           </button>
-          <h2 class="modal__header">Закажите звонок</h2>
+          <h2 class="modal__header">Закажите корм</h2>
           <label class="modal__label"> <span class="visually-hidden">Имя</span>
             <input class="modal__name" type="text" name="text" placeholder="Имя">
           </label>
           <label class="modal__label"> <span class="visually-hidden">Телефон</span>
             <input class="modal__phone" type="text" name="telephone" id="phone-modal" placeholder="Номер телефона*" required/>
           </label>
-          <label class="modal__label"> <span class="visually-hidden">Электронная почта</span>
-            <input class="modal__mail" type="email" name="email" id="email" placeholder="Электронная почта" />
-          </label>
-          <button class="btn modal__button" type="submit" disabled>Записаться</button>
+          <button class="btn modal__button" type="submit" disabled>Отправить</button>
           <div class="modal__information">
             <p class="modal__text">Нажимая кнопку &laquo;Отправить&raquo;, я&nbsp;даю условие на&nbsp;обработку персональных данных.</p>
           </div>

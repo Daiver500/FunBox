@@ -1,29 +1,19 @@
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Exo2';
   font-style: normal;
   font-display: swap;
-  font-weight: 500;
+  font-weight: 400;
   src:
-       url('../fonts/montserrat-medium.woff2') format('woff2'),
-       url('../fonts/montserrat-medium.woff') format('woff');
+       url('../fonts/exo2.woff2') format('woff2'),
+       url('../fonts/exo2.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Trebuchetms';
   font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src:
-  url('../fonts/montserrat-bold.woff2') format('woff2'),
-  url('../fonts/montserrat-bold.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 800;
+  font-weight: 400;
   font-display: swap;
   src:
-       url('../fonts/montserrat-extrabold.woff2') format('woff2'),
-       url('../fonts/montserrat-extrabold.woff') format('woff');
+       url('../fonts/trebuchetms.woff2') format('woff2'),
+       url('../fonts/trebuchetms.woff') format('woff');
 }
