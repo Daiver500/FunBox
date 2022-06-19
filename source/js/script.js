@@ -1,0 +1,6 @@
+const initFunction = () => {
+
+
+};
+
+export {initFunction};
