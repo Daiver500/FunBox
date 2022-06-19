@@ -43,6 +43,12 @@ main {
   background-color: $color-default-black;
 }
 
+@media (min-resolution: 2dppx) {
+  .main {
+    background-image: url("../img/Pattern@2x.png");
+  }
+}
+
 html,
 body {
   margin: 0;

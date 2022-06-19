@@ -5,6 +5,42 @@
   align-items: center;
   justify-content: center;
   flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.catalog__header {
+  margin-bottom: 24px;
+}
+
+.catalog__inner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 80px;
+
+  @include vp-1023 {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: unset;
+    grid-template-columns: unset;
+    justify-content: center;
+  }
+
+  @include vp-767 {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .catalog__list {
+   grid-gap: 20px;
+ }
 }
 
 .catalog__text-wrapper {

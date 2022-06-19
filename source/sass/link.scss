@@ -1,12 +1,27 @@
 .link {
-  padding: 19px 40px;
-  color: $color-default-black;
-  background-color: transparent;
-  border: 2px solid $color-default-black;
-  cursor: pointer;
-  border-radius: 100px;
-  font-size: 18px;
-  line-height: 21.6px;
-  transition: all 0.3s;
   font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  color: $color-pacific-blue;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+
+@media (hover: hover), screen and (min-width: 0\0) {
+  .link:hover,
+  .link:focus {
+    opacity: 0.5;
+  }
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  border-bottom: 1px dashed $color-pacific-blue;
+  left: 0;
+  height: 1px;
+  width: 85%;
 }
