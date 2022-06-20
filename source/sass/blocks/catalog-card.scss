@@ -288,7 +288,8 @@
   display: none;
 }
 
-.catalog-card-wrapper--disabled .catalog-card-wrapper__bottom-text--disabled {
+.catalog-card-wrapper--disabled
+.catalog-card-wrapper__bottom-text--disabled {
   position: relative;
   opacity: 1;
 }
@@ -305,7 +306,7 @@
   background-color: $color-pink-svan;
 }
 
-.catalog-card-wrapper--disabled .catalog-card-wrapper-disabled {
+.catalog-card-wrapper--disabled .catalog-card__off {
   background-color: $color-white-smoke;
   position: absolute;
   width:100%;
