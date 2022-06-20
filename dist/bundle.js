@@ -138,15 +138,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 var initFunction = function initFunction() {
   var catalogCards = document.querySelectorAll('.catalog-card');
-  var cardsLinks = document.querySelectorAll('.catalog-card__bottom-link');
+  var cardsLinks = document.querySelectorAll('.catalog-card-wrapper__bottom-link');
 
   var activateCard = function activateCard(evt) {
-    var target = evt.target.closest('.catalog-card__wrapper');
+    var target = evt.target.closest('.catalog-card-wrapper');
     target.classList.toggle('is-active');
   };
 
   var hoverActiveCard = function hoverActiveCard(evt) {
-    var target = evt.target.closest('.catalog-card__wrapper');
+    var target = evt.target.closest('.catalog-card-wrapper');
 
     if (target.classList.contains('is-active')) {
       target.classList.add('catalog-card--hover');
@@ -154,7 +154,7 @@ var initFunction = function initFunction() {
   };
 
   var hoverDisActiveCard = function hoverDisActiveCard(evt) {
-    var target = evt.target.closest('.catalog-card__wrapper');
+    var target = evt.target.closest('.catalog-card-wrapper');
     target.classList.remove('catalog-card--hover');
   };
 
